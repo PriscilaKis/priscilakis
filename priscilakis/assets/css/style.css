@@ -1,0 +1,92 @@
+.navbar-default {
+    background-color: mediumpurple;
+}
+
+body {
+    background-color: #d9aee2;
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    padding-top: 10px;
+}
+
+.navbar-header p:hover span {
+    color: #DACBF9;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: rebeccapurple;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.nav-nome {
+    display: inline;
+    max-height: 40px;
+    max-width: 200px;
+}
+
+.container {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 440px;
+    text-align: center;
+}
+
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 6px;
+    line-height: 1.42857143;
+    background-color: rebeccapurple;
+    border: 1px solid purple;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: pink;
+}
+
+.a {
+    color: deeppink;
+}
+
+.amor {
+    color: purple;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.social-links a {
+    margin-right: 20px;
+}
+
+footer {
+    background-color: rebeccapurple;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+
+footer a:hover {
+    color: #DACBF9;
+}
